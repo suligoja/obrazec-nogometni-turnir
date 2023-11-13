@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Prijava na nogometni turnir</title>
+<link rel="icon" type="image/png" href="img/bicycle.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.all.min.js"></script>
+
+</head>
+
+<body>
+<form id="myForm">
+<div class="div">
+<h1>Prijavnica na turnir</h1><br>
+<div class="centered-div">
+<label class="tg">Ime ekipe:</label>
+<input type="text"><br><br>
+<label class="tg">Ime igralca:</label>
+<label class="tf">Priimek igralca:</label><br>
+<label for="vizitka">1:</label>
+<input type="text"  placeholder="ime">
+<input type="text"  placeholder="priimek"><br><br>
+<label>2:</label>
+<input type="text"  placeholder="ime">
+<input type="text"  placeholder="priimek"><br><br>
+<label>3:</label>
+<input type="text"  placeholder="ime">
+<input type="text"  placeholder="priimek"><br><br>
+<label>4:</label>
+<input type="text"  placeholder="ime">
+<input type="text"  placeholder="priimek"><br><br>
+<label>5:</label>
+<input type="text"  placeholder="ime">
+<input type="text"  placeholder="priimek"><br><br>
+<label class="tg">Rezervisti:</label><br>
+<button type="button" id="add-button"  class="round-button">+</button><br>
+<div id="input-container">
+     <div class="input-row">          
+     </div>
+     </div>
+     </div>
+<div class="centered-div">
+      			
+<label for="tel" class="tg">Telefon:</label><br><br>
+    <input type="tel" id="tel" placeholder="123-456-789" pattern="[0-9]{3}[0-9]{3}[0-9]{3}" required><br><br>
+
+<label class="tg">Mail:</label><br>
+    <input type="email" placeholder="nekdo@gmail.com" id="mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required><br><br>
+</form>
+
+<button type="submit" id="submitButton" class="round-button">Vpis</button>
+
+
+</div>
+
+	<div class="centered-div">
+<pre><p class="p">Ajdovski nogometni turnir</p>
+ 4.6. 2023, Lokavec 135d, 5270 Ajdovščina
+<p class="p">prijavnina:</p>
+50€, rok prijave je 1.6.2023
+<p class="p">informacije:</p>
+041 478 388<br>
+lokavec@ks-ajdovscina.si<br>
+organizator turnirja:
+<p class="p">Krajevna skupnost Lokavec.</p></pre>
+</div>
+</div>
+    
+
+
+   <script src="script.js"></script>
+
+	</body>
+
+</html>
