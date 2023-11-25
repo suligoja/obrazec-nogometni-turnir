@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<meta charset="UTF-8">
 <title>Prijava na nogometni turnir</title>
 <link rel="icon" type="image/png" href="img/bicycle.png">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -18,24 +18,24 @@
 <h1>Prijavnica na turnir</h1><br>
 <div class="centered-div">
 <label class="tg">Ime ekipe:</label>
-<input type="text"><br><br>
+<input type="text" required><br><br>
 <label class="tg">Ime igralca:</label>
 <label class="tf">Priimek igralca:</label><br>
 <label for="vizitka">1:</label>
-<input type="text"  placeholder="ime">
-<input type="text"  placeholder="priimek"><br><br>
+<input type="text"  placeholder="ime" required>
+<input type="text"  placeholder="priimek" required><br><br>
 <label>2:</label>
-<input type="text"  placeholder="ime">
-<input type="text"  placeholder="priimek"><br><br>
+<input type="text"  placeholder="ime" required>
+<input type="text"  placeholder="priimek" required><br><br>
 <label>3:</label>
-<input type="text"  placeholder="ime">
-<input type="text"  placeholder="priimek"><br><br>
+<input type="text"  placeholder="ime" required>
+<input type="text"  placeholder="priimek" required><br><br>
 <label>4:</label>
-<input type="text"  placeholder="ime">
-<input type="text"  placeholder="priimek"><br><br>
+<input type="text"  placeholder="ime" required>
+<input type="text"  placeholder="priimek" required><br><br>
 <label>5:</label>
-<input type="text"  placeholder="ime">
-<input type="text"  placeholder="priimek"><br><br>
+<input type="text"  placeholder="ime" required>
+<input type="text"  placeholder="priimek" required><br><br>
 <label class="tg">Rezervisti:</label><br>
 <button type="button" id="add-button"  class="round-button">+</button><br>
 <div id="input-container">
@@ -52,21 +52,10 @@
     <input type="email" placeholder="nekdo@gmail.com" id="mail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required><br><br>
 </form>
 
-<button type="submit" id="submitButton" class="round-button">Vpis</button>
+<button type="submit" id="submitButton" class="round-button">Vpis</button><br>
 
 
-</div>
-
-	<div class="centered-div">
-<pre><p class="p">Ajdovski nogometni turnir</p>
- 4.6. 2023, Lokavec 135d, 5270 Ajdovščina
-<p class="p">prijavnina:</p>
-50€, rok prijave je 1.6.2023
-<p class="p">informacije:</p>
-041 478 388<br>
-lokavec@ks-ajdovscina.si<br>
-organizator turnirja:
-<p class="p">Krajevna skupnost Lokavec.</p></pre>
+<button type="submit" id="info">info</button>
 </div>
 </div>
     

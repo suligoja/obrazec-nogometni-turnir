@@ -78,3 +78,24 @@ document.addEventListener("DOMContentLoaded", function() {
             timer: 5500
         });
     });
+	
+	
+      
+      document.getElementById("info").addEventListener("click", function () {
+		  event.preventDefault();
+    Swal.fire({
+        title: 'Ajdovski nogometni turnir:',
+        html: '4.6. 2023, Lokavec 135d, 5270 Ajdovščina,<br> prijavnina: 50€,<br>rok prijave je 1.6.2023<br>Informacije: 041 478 388<br>Email: lokavec@ks-ajdovscina.si<br>Organizator turnirja: Krajevna skupnost Lokavec.',
+        icon: 'info',
+        confirmButtonText: 'OK'	
+    });
+	//sweet alert barve
+	Swal.getPopup().style.backgroundColor = 'rgb(235, 252, 235)';
+    Swal.getTitle().style.color = 'rgb(2, 48, 32)';
+    Swal.getContent().style.color = 'rgb(2, 48, 32)';
+    Swal.getConfirmButton().style.backgroundColor = 'green';
+    Swal.getConfirmButton().style.color = 'white';
+});
+    
+	
+	
